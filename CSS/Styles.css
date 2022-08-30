@@ -81,6 +81,7 @@ body{
     padding: 20px; 
     margin-top: 40px;
 }
+/* Con @media(max-width:...) logramos agregarle la lógica de que cuando el ancho llegue a una cantidad X automaticamente el main y el sidebar dejen de ser float y pasen a ocupar el tamaño completo */
 
 @media(max-width:800px){
     #main{
